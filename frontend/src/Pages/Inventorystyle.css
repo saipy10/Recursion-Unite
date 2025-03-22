@@ -1,0 +1,95 @@
+/* General grid styling */
+.e-grid {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .e-gridheader {
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+  
+  .e-grid .e-row {
+    background-color: #fafafa;
+  }
+  
+  .e-grid .e-row:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .e-grid .e-row .e-cell {
+    padding: 10px;
+  }
+  
+  /* Styling for product images */
+  .product-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Delete button styling */
+  .delete-btn {
+    background-color: #f44336; /* Red color for delete */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Styling for grid container */
+  .m-2 {
+    margin: 1rem;
+  }
+  
+  .md\:m-10 {
+    margin: 2.5rem;
+  }
+  
+  .p-2 {
+    padding: 1rem;
+  }
+  
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .rounded-3xl {
+    border-radius: 1.5rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Custom grid columns alignment */
+  .e-headercell {
+    text-align: center;
+  }
+  
+  .e-cell {
+    text-align: left;
+  }
+  

@@ -1,0 +1,135 @@
+/* RegistrationPage.css */
+
+/* Container for the registration card */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    position: relative;
+  }
+  
+  /* Registration card styling */
+  /* Registration card styling */
+.registration-card {
+    background: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    border-width: 4px;
+    border-style: solid;
+    border-image-source: linear-gradient(
+      to bottom,
+      #06d6a0 100%, /* Top: full */
+      #06d6a0 15%,  /* Sides: 10-15% */
+      transparent 85% /* Bottom: none */
+    );
+    border-image-slice: 1; /* Ensure the gradient slices correctly */
+  }
+  
+  
+  /* Logo at the top */
+  .registration-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Avatar styling */
+  .registration-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    object-fit: cover;
+    border: 3px solid #06d6a0;
+  }
+  
+  /* Title and subtitle */
+  .registration-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .registration-subtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Form inputs */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #06d6a0;
+    box-shadow: 0 0 4px rgba(6, 214, 160, 0.5);
+  }
+  
+  /* Password strength container */
+  .password-strength-container {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  /* Password strength bar */
+  .password-strength-bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Password strength label */
+  .password-strength-label {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  /* Register button */
+  .registration-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #06d6a0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .registration-btn:hover {
+    background-color: #05c093;
+  }
+  
+  /* Close button at the top-right */
+  .text-2xl {
+    font-size: 24px;
+  }
+  
+  .hover\\:drop-shadow-xl:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .hover\\:bg-light-gray:hover {
+    background-color: #f0f0f0;
+  }
+  
